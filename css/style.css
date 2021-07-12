@@ -27,6 +27,73 @@ hr {
     margin-bottom: 27px;
 
 }
+a{
+    text-decoration: none;
+}
+/* header part styles */
+/* .header-part{
+    background-color: violet;
+    display: flex;
+    justify-content: center;
+}
+.cont {
+     width: 870px;
+     padding: 30px;
+     margin-top: 21px;
+     border-radius: 5px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img {
+    width: 40.42px;
+    height: 51px;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+
+} */
+
+.header-part{
+    background-color: #562EFF;
+}
+.wrap{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cont{
+    width: 870px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 26px;
+    padding-bottom: 17px;
+    
+}
+.logo,
+.menu {
+    display: flex;
+    align-items: center;
+}
+.menu .font{
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-right: 36px;
+}
+.logo img{
+    width: 40.42px;
+    height: 51px;
+}
+.image-side{
+    font-size: 24px;
+    color: #f1f1f1;
+    margin-left: 16px;
+}
+
 
 /* Top players styles */
 .top-players {
